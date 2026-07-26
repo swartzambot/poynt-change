@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Poynt Terminal Namer",
+  "version": "1.0",
+  "description": "Shows terminal names next to TIDs on poynt.secureserver.net",
+  "content_scripts": [
+    {
+      "matches": ["https://poynt.secureserver.net/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
