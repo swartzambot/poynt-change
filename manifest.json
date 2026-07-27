@@ -5,8 +5,12 @@
   "description": "Shows terminal names next to TIDs on poynt.secureserver.net",
   "content_scripts": [
     {
-      "matches": ["https://poynt.secureserver.net/*"],
+      "matches": [
+        "https://poynt.secureserver.net/*",
+        "https://gd-commsplat-prod-poynt-reports.s3.amazonaws.com/*"
+      ],
       "js": ["content.js"],
+      "all_frames": true,
       "run_at": "document_idle"
     }
   ]
