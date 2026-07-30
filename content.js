@@ -1,5 +1,6 @@
 // Edit this map to add/rename terminals, then click "reload" on chrome://extensions
 const TID_NAMES = {
+  '0008047096808193': 'Accounting',
   '0008047096808203': 'Pension Lane',
   '0008047096808255': 'Pond Mills',
   '0008047096808327': 'Debit J',
